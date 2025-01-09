@@ -189,7 +189,7 @@ do
       then
           $EVNDISPSYS/bin/logFile convLog $TMPDIR/${RUNN}.root $TMPDIR/$OFIL.$N.convert.log
       fi
-      cp -v -f $TMPDIR/[0-9]*.root ${ODIR}/${RUNN}HD_${ILINE}_${MCAZ}deg.root
+      cp -v -f $TMPDIR/[0-9]*.root ${ODIR}/${RUNN}CTAO_${ILINE}_${MCAZ}deg.root
   else
       echo "No root files found!"
       if [ -e $TMPDIR/$OFIL.$N.convert.log ]; then

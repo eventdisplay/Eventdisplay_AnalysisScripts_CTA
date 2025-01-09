@@ -224,7 +224,7 @@ do
 done
 
 echo "submit script with $FNAM.sh"
-echo "condor_submit $FNAM.sh.condor requirements='OpSysAndVer==\"AlmaLinux9\"'"
+echo "condor_submit $FNAM.sh.condor"
 echo "writing queue log and error files to $QLOG"
 
 exit
